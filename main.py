@@ -29,6 +29,14 @@ def main():
     building.add_resident(Resident(103, 3, 5200))
     building.add_resident(Resident(104, 4, 8000))
 
+    print("Building Information:")
+    print(f"Address: {building.address}")
+    print("Residents:")
+    for resident in building.residents:
+        print(f"  Room Number: {resident.roomNumber}, "
+              f"Number of Residents: {resident.numberOfResidents}, "
+              f"Rent: {resident.rent}")
+
 
 if __name__ = "__main__":
 main()
