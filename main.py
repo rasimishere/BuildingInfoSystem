@@ -22,6 +22,13 @@ class Building:
                 f"residents={self.residents})")
 
 def main():
+    building = Building("RasimHolding")
+
+    building.add_resident(Resident(101, 1, 1600))
+    building.add_resident(Resident(102, 2, 2000))
+    building.add_resident(Resident(103, 3, 5200))
+    building.add_resident(Resident(104, 4, 8000))
+
 
 if __name__ = "__main__":
 main()
