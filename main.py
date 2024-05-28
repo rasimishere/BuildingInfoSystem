@@ -20,3 +20,8 @@ class Building:
     def __repr__(self):
         return (f"Building(address='{self.address}', "
                 f"residents={self.residents})")
+
+def main():
+
+if __name__ = "__main__":
+main()
